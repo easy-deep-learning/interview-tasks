@@ -49,5 +49,5 @@ const referenceResult = [
 
  * 
  * 
- * - The class should handle any errors gracefully, such as invalid order data
+ * - The class should handle any errors gracefully, such as invalid order data (missing fields, incorrect types, etc. - how can you validate it).
  */
