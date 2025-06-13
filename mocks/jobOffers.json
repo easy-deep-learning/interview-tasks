@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "location": "Texas, USA",
+    "salary": "$100000",
+    "skills": ["JavaScript", "React", "CSS"]
+  },
+  {
+    "id": 2,
+    "title": "Full Stack Engineer",
+    "location": "London, UK",
+    "salary": "£80000",
+    "skills": ["JavaScript", "Node.js", "Express"]
+  },
+  {
+    "id": 3,
+    "title": "React Engineer",
+    "location": "Sidney, Australia",
+    "salary": "$90000",
+    "skills": ["JavaScript", "React", "Redux"]
+  },
+  {
+    "id": 4,
+    "title": "Next.js Developer",
+    "location": "Berlin, Germany",
+    "salary": "€110000",
+    "skills": ["JavaScript", "Next.js", "TypeScript"]
+  },
+  {
+    "id": 5,
+    "title": "Full Stack Engineer (TypeScript, AWS)",
+    "location": "Paris, France",
+    "salary": "$120000",
+    "skills": ["TypeScript", "AWS", "Node.js"]
+  }
+]
