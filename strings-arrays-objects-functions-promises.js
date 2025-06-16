@@ -81,3 +81,8 @@ async function fetchJobOffersAndUserProfile() {
 
 // Example usage
 // log the result of the function
+
+
+// Q: How to get this data from a /job-offers endpoint? using fetch API
+// Q: Explain REST principles and how they apply to this endpoint (CRUD operations, filtering, sorting, pagination).
+// Q: What other interactions could be implemented with this endpoint (graphQL)?

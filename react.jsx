@@ -1,11 +1,42 @@
-// Create a Component for Ordered List.
-// use https://example/api.com/ordered-list as the REST API endpoint
-// https://example/api.com/ordered-list returns a JSON array 
-// like this:
+// Create a Component for JobOffers List.
+// use https://example/api.com/offers as the REST API endpoint
+// It returns a JSON array of job offers like this:
 // [
-//   { "id": 1, "name": "Item 1", "description": "Description 1" },
-//   { "id": 2, "name": "Item 2", "description": "Description 2" },
-//   { "id": 3, "name": "Item 3", "description": "Description 3" }
+//   {
+//     id: 1,
+//     title: "Frontend Developer",
+//     location: "Texas, USA",
+//     salary: "$100000",
+//     skills: ["JavaScript", "React", "CSS"],
+//   },
+//   {
+//     id: 2,
+//     title: "Full Stack Engineer",
+//     location: "London, UK",
+//     salary: "£80000",
+//     skills: ["JavaScript", "Node.js", "Express"],
+//   },
+//   {
+//     id: 3,
+//     title: "React Engineer",
+//     location: "Sidney, Australia",
+//     salary: "$90000",
+//     skills: ["JavaScript", "React", "Redux"],
+//   },
+//   {
+//     id: 4,
+//     title: "Next.js Developer",
+//     location: "Berlin, Germany",
+//     salary: "€110000",
+//     skills: ["JavaScript", "Next.js", "TypeScript"],
+//   },
+//   {
+//     id: 5,
+//     title: "Full Stack Engineer (TypeScript, AWS)",
+//     location: "Paris, France",
+//     salary: "$120000",
+//     skills: ["TypeScript", "AWS", "Node.js"],
+//   },
 // ]
 // and fetch the data using useEffect.
 // Display the data in an ordered list format.
@@ -14,20 +45,3 @@
 // Use React functional components and hooks.
 
 import React, { useEffect, useState } from 'react';
-
-
-const OrderedList = () => {
-  return (
-    <div>
-      TODO
-    </div>
-  );
-}
-
-const OrderedListItem = () => {
-  return (
-    <div>
-      TODO
-    </div>
-  );
-}
