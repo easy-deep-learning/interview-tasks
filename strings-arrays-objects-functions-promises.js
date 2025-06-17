@@ -1,4 +1,4 @@
-// TASK
+// TASK 1
 // Job offers management system
 const jobOffers = [
   {

@@ -1,50 +1,59 @@
 /**
-### Task: Process Orders Summary
+### Task: Process Job Offers
 
 Description:
 
-You're given an array of customer orders. Each order is an object like this:
+You're given an array of job offers. Each job offer is an object like this (see the strings-arrays-objects-functions-promises.js file):
+{
+    id: 1,
+    title: "Frontend Developer",
+    location: "Texas, USA",
+    salary: "$100000",
+    skills: ["JavaScript", "React", "CSS"],
+  },
+  {
+    id: 2,
+    title: "Full Stack Engineer",
+    location: "London, UK",
+    salary: "£80000",
+    skills: ["JavaScript", "Node.js", "Express"],
+  },
+
 */
-type OrderData = "TODO";
-interface IOrderClass = "TODO";
+type JobOfferType = {
+  id: number;
+  title: string;
+  location: string;
+  salary: string;
+  skills: string[];
+};
 
-const ordersData: OrderData[] = [
-  {
-    id: 101,
-    customer: "Alice",
-    items: [
-      { name: "Book", quantity: 1, price: 15.99 },
-      { name: "Pen", quantity: 2, price: 3.5 },
-    ],
-  },
-  {
-    id: 102,
-    customer: "Bob",
-    items: [{ name: "Notebook", quantity: 3, price: 7.25 }],
-  },
-];
-
-class OrderClass implements IOrderClass {
-  // TODO
+interface JobOffersORM {
+  // TODO: add constructor that accepts an array of job offers
+  summarizeJobOffers: () => string[];
 }
 
-const currentOrders = new OrderClass(ordersData);
+const jobOffersData: JobOfferType[] = [];
 
-const result = currentOrders.summarizeOrders();
+class JobOffersORM implements JobOffersORM {
+  // TODO: implement constructor that accepts an array of job offers
+  // TODO: implement summarizeJobOffers method
+}
+
+const currentJobOffers = new JobOffersORM(jobOffersData);
+
+const result = currentJobOffers.summarizeJobOffers();
 
 /**
- * Write a class for processing orders.
+ * Write a class for processing job offers.
  * The class should implement the following:
- * - A constructor that accepts an array of orders
- * - A method `summarizeOrders()` that returns an array of strings.
- *   - String example: "Order #123 for Alice: 3 items, total $59.97"
- *   - 3 items is the total quantity (sum of all quantity fields)
- *   - $59.97 is the total cost (sum of quantity * price for all items)
- *   - Amounts should be rounded to 2 decimal places
+ * - A constructor that accepts an array of job offers
+ * - A method `summarizeJobOffers()` that returns an array of strings.
+ *   - String example: "Job Offer #1: Full Stack Engineer in London, UK, £80000, skills: JavaScript, Node.js, Express"
  * 
 const referenceResult = [
-  "Order #101 for Alice: 3 items, total $22.99",
-  "Order #102 for Bob: 3 items, total $21.75",
+  "Job Offer #1: Full Stack Engineer in London, UK, £80000, skills: JavaScript, Node.js, Express",
+  "Job Offer #2: Full Stack Engineer in London, UK, £80000, skills: JavaScript, Node.js, Express",
 ];
 
  * 

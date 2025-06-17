@@ -40,8 +40,9 @@
 // ]
 // and fetch the data using useEffect.
 // Display the data in an ordered list format.
-// Ordered List contains items with id, name, and description.
-// If no orders are found, display "No orders found" and minimize the client size. (lazy loading)
+// Ordered List contains items with id, title, location, salary, and skills.
+// If no job offers are found, display "No job offers found" and minimize the client size. (lazy loading)
 // Use React functional components and hooks.
+// Split the component into smaller components.
 
 import React, { useEffect, useState } from 'react';

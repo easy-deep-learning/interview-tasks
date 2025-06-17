@@ -1,27 +1,14 @@
 
-// create a nodejs server for orders
-// 
-const orders = [
-  {
-    id: 101,
-    customer: "Alice",
-    items: [
-      { name: "Book", quantity: 1, price: 15.99 },
-      { name: "Pen", quantity: 2, price: 3.5 },
-    ],
-  },
-  {
-    id: 102,
-    customer: "Bob",
-    items: [{ name: "Notebook", quantity: 3, price: 7.25 }],
-  },
-]
-// /orders endpoint to return the orders
+// Task
+// reate a nodejs server for job offers
+// see the strings-arrays-objects-functions-promises.js file for the job offers data
+const jobOffers = []
+// /job-offers endpoint to return the job offers
 
 
-// How do you create a SQL base table for orders?
+// How do you create a SQL base table for job offers?
 
-// How do you request the orders from SQL database?
+// How do you request the job offers from SQL database?
 
-// How do you create a mongoDB base table for orders?
-// How do you request the orders from mongoDB database?
+// How do you create a mongoDB base table for job offers?
+// How do you request the job offers from mongoDB database?
