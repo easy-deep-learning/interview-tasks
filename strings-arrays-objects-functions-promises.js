@@ -79,6 +79,8 @@ async function fetchJobOffersAndUserProfile() {
   return 'TODO'
 }
 
+fetchJobOffersAndUserProfile(api)
+
 // Example usage
 // log the result of the function
 
